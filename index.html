@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Day 10</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name='description' content='' />
+
+    <meta name='keywords' content='' />
+
+    <meta name='author' content='Precious Iriaevho' />
+
+</head>
+
+<style>
+    * {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    .container {
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+    .header {
+        height: 4.5vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+
+    .header span {
+        margin-right: 20px;
+
+    }
+
+    .user {
+        border: 0;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        margin: 5px;
+    }
+
+    .header img {
+        border-radius: 50%;
+    }
+
+    .head-link {
+        margin-right: 10px;
+        color: rgba(0, 0, 0, 0.87);
+        text-decoration: none;
+    }
+
+    .head-link a {
+        color: rgba(0, 0, 0, 0.87);
+        text-decoration: none;
+    }
+
+    .content {
+        height: 85vh;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+
+    .contents {
+        display: flex;
+        justify-content: center;
+
+        /*
+        width: 800px;
+        margin: 0 auto;
+*/
+
+    }
+
+    .contents button {
+        background-color: #f8f9fa;
+        border: 2px solid #f8f9fa;
+        border-radius: 4px;
+        color: #3c4043;
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        margin: 11px 4px;
+        padding: 0 16px;
+        height: 36px;
+        min-width: 54px;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    .contents button:hover {
+        border-color: rgba(223, 225, 229, 0);
+        box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    }
+
+    .content a {
+        color: #1a0dab;
+        text-decoration: none;
+        margin-right: 0 10px 0 10px;
+    }
+
+    .image {
+        margin-bottom: 30px;
+    }
+
+    .footer {
+        position: relative;
+        bottom: px;
+    }
+
+    .footer1 {
+        height: 5vh;
+        background-color: #f2f2f2;
+    }
+
+    .footer1 p {
+        padding: 15px 30px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, .54);
+    }
+
+    .footer2 {
+        height: 5vh;
+        background-color: #f2f2f2;
+        border-top: 1px solid #dadce0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .footer2 p {
+        width: 32%;
+        padding: 15px 30px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, .54);
+
+    }
+
+    .footer2 a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, .54);
+    }
+
+    .footer-link1 a {
+        margin-right: 20px;
+    }
+
+    .footer-link2 {
+        text-align: center;
+    }
+
+    .footer-link3 {
+        text-align: right;
+    }
+
+    .footer-link3 a {
+        margin-left: 20px;
+
+    }
+
+    #input {
+        background-color: transparent;
+        border: 1px solid #dfe1e5;
+        padding-left: 10px;
+        color: rgba(0, 0, 0, .87);
+        outline: none;
+        width: 700px;
+        border-radius: 25px;
+        height: 45px;
+        font-size: 20px;
+
+    }
+
+    #input:hover {
+
+        border-color: rgba(223, 225, 229, 0);
+        box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    }
+
+</style>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="head-link">
+                <span><a href="">Gmail</a></span>
+                <span><a href="">Images</a></span>
+            </div>
+            <div class="user">
+                <img src="clicky.jpg" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <div class="image">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+            </div>
+            <div class="searchy">
+                <input type="search" id='input' placeholder="Designed by PRECIOUS IRIAEVHO, GOOGLE.COM Imitation!!!">
+            </div>
+
+
+            <div class="contents">
+
+
+
+                <button>Google Search</button>
+                <button>I am feeling Lucky</button>
+            </div>
+            <p>Google offered in: <a href="">Hausa</a> <a href="">Igbo</a> <a href="">Èdè Yorùbá</a> <a href="">Nigerian Pidgin</a> </p>
+        </div>
+
+        <div class="footer">
+            <div class="footer1">
+                <p>Nigeria</p>
+            </div>
+            <div class="footer2">
+                <p class='footer-link1'><a href="">About</a>
+                    <a href="">Advertising</a>
+                    <a href="">Business</a>
+                    <a href="">How Search works</a>
+
+
+                </p>
+                <p class='footer-link2'>
+                    <a href="">Carbon neutral since 2007</a>
+                </p>
+
+                <p class='footer-link3'>
+                    <a href="">Privacy</a>
+                    <a href="">Terms</a>
+                    <a href="">Settings</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
